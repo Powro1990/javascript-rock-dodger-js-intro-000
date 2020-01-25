@@ -71,7 +71,7 @@ function createRock(x) {
   function moveRock() {
     top += 2
     
-    window.requestAnimationFrame(moveRock)
+    
     
     // implement me!
     // (use the comments below to guide you!)
@@ -89,7 +89,7 @@ function createRock(x) {
      * But if the rock *has* reached the bottom of the GAME,
      * we should remove the rock from the DOM.
      */
-  }
+  }window.requestAnimationFrame(moveRock)
 
   // We should kick off the animation of the rock around here.
 
