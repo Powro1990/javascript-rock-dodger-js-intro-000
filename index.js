@@ -71,6 +71,8 @@ function createRock(x) {
   function moveRock() {
     top += 2
     
+    window.requestAnimationFrame(moveRock)
+    
     // implement me!
     // (use the comments below to guide you!)
     /**
