@@ -132,7 +132,6 @@ function moveDodgerLeft() {
 function moveDodgerRight() {
      DODGER.style.left += 4
  
- window.requestAnimationFrame(moveDodgerRight)
 }
 
 /**
