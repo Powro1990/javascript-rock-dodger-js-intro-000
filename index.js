@@ -85,6 +85,7 @@ function createRock(x) {
 function endGame() {
   clearInterval(gameInterval)
   document.querySelectorAll(".rock").remove;
+  alert("YOU LOSE!")
 }
 
 function moveDodger(e) {
