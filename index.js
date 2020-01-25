@@ -131,7 +131,9 @@ function moveDodgerLeft() {
 
 function moveDodgerRight() {
  function move(DODGER){
-   
+   function stepRight(){
+     DODGER.style.left = `${left += 4}`
+   }
  }
 }
 
