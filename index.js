@@ -130,6 +130,7 @@ function moveDodgerLeft() {
 }
 
 function moveDodgerRight() {
+  var right = DODG
   function move(){
      DODGER.style.left += 4
   }
