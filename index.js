@@ -133,8 +133,12 @@ function moveDodgerRight() {
   var right = 180;
   function move(){
      DODGER.style.left = `${right += 4}px`;
+     
+     if (right <360){
+       window.requestAnimationFrame(move);
+     }
   }
-  window.requestAnimationFrame(move)
+  window.requestAnimationFrame(move);
 }
 
 /**
