@@ -10,6 +10,7 @@ const RIGHT_ARROW = 39 // use e.which!
 const ROCKS = []
 const START = document.getElementById('start')
 
+var right = 180;
 var gameInterval = null
 
 /**
@@ -136,7 +137,6 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
-var right = 0;
   function move(){
      DODGER.style.left = `${right -= 4}px`;
      
@@ -148,7 +148,6 @@ var right = 0;
 }
 
 function moveDodgerRight() {
-  var right = 0;
   function move(){
      DODGER.style.left = `${right += 4}px`;
      
