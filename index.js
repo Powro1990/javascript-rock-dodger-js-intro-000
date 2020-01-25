@@ -49,7 +49,7 @@ function createRock(x) {
 
   function moveRock() {
     top += 2
-    if(checkCollision() === true){
+    if(checkCollision(rock)){
       endGame()
     }
   }
