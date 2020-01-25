@@ -136,9 +136,9 @@ function moveDodgerRight() {
   function move(){
     if (right <360){
      DODGER.style.left = `${right += 4}px`;
-      window.requestAnimationFrame(move);
+      
   }
- 
+ window.requestAnimationFrame(move);
   }
 }
 
