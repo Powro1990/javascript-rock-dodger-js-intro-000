@@ -84,7 +84,7 @@ function createRock(x) {
  */
 function endGame() {
   clearInterval(gameInterval)
-  document.querySelectorAll(".rock")
+  document.querySelectorAll(".rock").remove()
 }
 
 function moveDodger(e) {
