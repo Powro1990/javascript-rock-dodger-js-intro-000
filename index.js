@@ -130,12 +130,9 @@ function moveDodgerLeft() {
 }
 
 function moveDodgerRight() {
-  var element = DODGER;
-  
- function move(element){
-     element.style.left += 4
- }
- window.requestAnimationFrame(move)
+     DODGER.style.left += 4
+ 
+ window.requestAnimationFrame(moveDodgerRight)
 }
 
 /**
