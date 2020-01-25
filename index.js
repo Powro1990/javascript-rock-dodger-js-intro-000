@@ -136,7 +136,7 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
-var right = 180;
+var right = 0;
   function move(){
      DODGER.style.left = `${right -= 4}px`;
      
@@ -148,7 +148,7 @@ var right = 180;
 }
 
 function moveDodgerRight() {
-  var right = 180;
+  var right = 0;
   function move(){
      DODGER.style.left = `${right += 4}px`;
      
