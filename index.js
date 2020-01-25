@@ -131,16 +131,14 @@ function moveDodgerLeft() {
 
 function moveDodgerRight() {
   var right = 180;
-  
-  
   function move(){
-    if (right <360){
      DODGER.style.left = `${right += 4}px`;
-      
+     
+     if (right <360){
+       window.requestAnimationFrame(move);
+     }
   }
-
-  }
-   window.requestAnimationFrame(move);
+  window.requestAnimationFrame(move);
 }
 
 /**
